@@ -1,0 +1,14 @@
+VLC media player - web interface additions
+
+based on VLC media player 2.0.5 (original web interface files are in http_orig)
+
+USAGE:
+- backup /usr/share/vlc/lua/http
+- copy the files from http_changed to /usr/share/vlc/lua/http
+- if you have other VLC version than 2.0.5: diff the files in http_changed with the original files from 2.0.5 (in http_orig) and merge the changes to files in your http directory manually
+
+ADDITIONS LIST:
+- shows "Now Playing" line below the "Media Title" line (usable for internet radio stations)
+- adds "Now Playing" and "Media Title" to the page title (shown on the browser tab and as the browser window title)
+- URL input box - an URL can be added to the playlist or played immediately
+
